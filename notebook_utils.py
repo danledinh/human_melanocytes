@@ -505,4 +505,50 @@ color_code_dict = {'dendritic':'#b99abf',
                    'cluster_0':'#ffda14',
                    'cluster_2':'#39ff14',
                   }
+
 heatmap_cmap = 'jet'
+
+type_order_1 = ['mel',
+                'cyc_mel',
+                'krt',
+                'cyc_krt',
+                'eccrine',
+                'cyc_eccrine',
+                'dendritic',
+                'cyc_dendritic',
+                'mast',
+                'T-cell',]
+
+type_order_2 = ['light_foll_mel',
+                'dark_foll_mel',
+                'foreskin_mel',
+                'acral_mel',
+                'cutaneous_mel',
+                'cyc_foll_mel',
+                'cyc_mel',
+                'krt',
+                'cyc_krt',
+                'eccrine',
+                'cyc_eccrine',
+                'dendritic',
+                'cyc_dendritic',
+                'mast',
+                'T-cell',]
+
+type_order_3 = ['adt_cutaneous_mel',
+                'adt_acral_mel',
+                'neo_foreskin_mel',
+                'fet_cutaneous_mel',
+                'fet_acral_mel',
+                'fet_dark_foll_mel',
+                'fet_light_foll_mel',][::-1] + \
+                ['cyc_mel',
+                'cyc_foll_mel',
+                'krt',
+                'cyc_krt',
+                'eccrine',
+                'cyc_eccrine',
+                'dendritic',
+                'cyc_dendritic',
+                'mast',
+                'T-cell',]
