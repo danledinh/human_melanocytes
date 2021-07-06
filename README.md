@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/383532497.svg)](https://zenodo.org/badge/latestdoi/383532497)
+
 # human_melanocytes
 Single cell RNA-seq of human melanocytes
 
